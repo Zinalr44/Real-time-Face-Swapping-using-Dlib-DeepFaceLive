@@ -48,3 +48,49 @@ pip install -r requirements.txt
 4. Install CUDA-supported PyTorch (if you have NVIDIA GPU)
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org
 
+▶️ Usage
+Run the application
+python main.py run
+
+Train (if modifying models)
+python main.py train
+
+🎬 Demo
+
+Example:
+Swap your face with Angelina Jolie in real time:
+
+📂 Project Structure
+DeepFaceLive/
+│── apps/              # Application logic
+│── build/             # Build scripts
+│── doc/               # Documentation
+│── localization/      # Multi-language support
+│── modelhub/          # Pretrained models
+│── resources/         # Static resources
+│── scripts/           # Helper scripts
+│── userdata/          # User data & configs
+│── main.py            # Entry point
+│── requirements.txt   # Dependencies
+│── README.md          # Project documentation
+│── LICENSE            # License file
+
+⚡ Performance
+
+Runs real-time on NVIDIA RTX 3050 Ti Laptop GPU.
+
+Uses CUDA 12.1 + cuDNN 9.8.
+
+Achieves smooth FPS for live webcam swapping.
+
+📜 License
+
+This project is licensed under the MIT License – see the LICENSE
+ file for details.
+
+👨‍💻 Author
+
+Zinal Raval
+
+💼 AI Developer | Backend Engineer | Automation Expert
+
