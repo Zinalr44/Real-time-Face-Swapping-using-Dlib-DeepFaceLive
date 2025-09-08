@@ -51,6 +51,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 ▶️ Usage
 Run the application
 python main.py run
+python main.py run DeepFaceLive 
 
 Train (if modifying models)
 python main.py train
@@ -93,4 +94,5 @@ This project is licensed under the MIT License – see the LICENSE
 Zinal Raval
 
 💼 AI Developer | Backend Engineer | Automation Expert
+
 
